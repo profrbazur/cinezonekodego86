@@ -1,11 +1,8 @@
 import { useFetch } from '../hooks/useFetch';
-
 import { Card } from '../components';
 
-export const MovieList = () => {
-  const { data: movies } = useFetch(
-    'https://api.themoviedb.org/3/movie/now_playing?api_key=e76d2381f0382657b3c2960253bbd771'
-  );
+export const MovieList = ({ apiPath }) => {
+  const { data: movies } = useFetch(apiPath);
 
   return (
     <main>

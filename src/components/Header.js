@@ -213,7 +213,7 @@ export const Header = () => {
               </li>
               <li>
                 <NavLink
-                  to="top"
+                  to="movies/top"
                   className={({ isActive }) =>
                     isActive ? activeClass : inActiveClass
                   }

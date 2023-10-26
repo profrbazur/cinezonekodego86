@@ -13,7 +13,7 @@ export const Card = ({ movie }) => {
         <img
           className="rounded-t-lg"
           src={image}
-          alt="Movie"
+          alt=""
         />
       </Link>
       <div className="p-5">

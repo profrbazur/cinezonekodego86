@@ -18,7 +18,7 @@ export const Footer = () => {
           <li>
             <a
               target="_blank"
-              href="#"
+              href="https://kodego.ph/"
               rel="noreferrer"
               className="mr-4 hover:underline md:mr-6 "
             >
@@ -28,7 +28,7 @@ export const Footer = () => {
           <li>
             <a
               target="_blank"
-              href="#"
+              href="https://kodego.ph/"
               rel="noreferrer"
               className="mr-4 hover:underline md:mr-6"
             >
@@ -38,7 +38,7 @@ export const Footer = () => {
           <li>
             <a
               target="_blank"
-              href="#"
+              href="https://kodego.ph/"
               rel="noreferrer"
               className="mr-4 hover:underline md:mr-6"
             >
@@ -48,7 +48,7 @@ export const Footer = () => {
           <li>
             <a
               target="_blank"
-              href="#"
+              href="https://kodego.ph/"
               rel="noreferrer"
               className="hover:underline"
             >

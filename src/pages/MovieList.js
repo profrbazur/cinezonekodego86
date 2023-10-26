@@ -4,6 +4,7 @@ import { Card } from '../components';
 
 export const MovieList = ({ apiPath, title }) => {
   const { data: movies } = useFetch(apiPath);
+  //eslint-disable-next-line
   const pageTitle = useTitle(title);
 
   return (
